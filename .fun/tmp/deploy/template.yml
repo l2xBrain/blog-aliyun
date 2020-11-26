@@ -9,7 +9,7 @@ Resources:
     blog:
       Type: 'Aliyun::Serverless::Function'
       Properties:
-        Handler: scf.main_handler
+        Handler: index.handler
         Runtime: nodejs12
         Timeout: 15
         MemorySize: 1024

@@ -1,13 +1,13 @@
 # 阿里云Serverless函数计算搭建博客
 
-######博客搭建阿里云的函数计算和docsify, 在开始之前希望你已经了解了阿里云Serverless函数计算，并确保你在电脑已经下载好了Funcraft和docsify-cli。在本地运行还需要下载docker**
+> 博客搭建阿里云的函数计算和docsify, 在开始之前希望你已经了解了阿里云Serverless函数计算，并确保你在电脑已经下载好了Funcraft和docsify-cli。在本地运行还需要下载docker**
 ```JavaScript
 // 安装funcraft
 npm install @alicloud/fun -g
 // 安装docsify-cli
 npm i docsify-cli -g
 ```
-######使用阿里云Serverless函数计算搭建博客，template.yml文件的配置是比较需要关注的点，下面附上配置文档，方便随时查阅。
+> 使用阿里云Serverless函数计算搭建博客，template.yml文件的配置是比较需要关注的点，下面附上配置文档，方便随时查阅。
 [template.yml配置文档](https://github.com/alibaba/funcraft/blob/master/docs/specs/2018-04-03-zh-cn.md?spm=a2c4g.11186623.2.27.5db0520dd7mf4c&file=2018-04-03-zh-cn.md)
 
 **步骤1. 新建Serverless项目，选择http-trigger开头的node版本**
